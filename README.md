@@ -1,218 +1,128 @@
-🤖🔥 Cybernetics Based AI Fire Detection System
+# 🔥🤖 Cybernetics AI Fire Detection System
 
-An intelligent Cybernetics-driven Fire Detection System powered by Artificial Intelligence, Computer Vision, and Feedback Control Principles.
-The system detects fire in real-time using deep learning models and continuously improves monitoring through adaptive feedback mechanisms.
+An intelligent **AI-powered Fire Detection System** based on **Cybernetics principles** and **Computer Vision**.  
+This system detects fire in real-time using deep learning models and continuously monitors environments through an adaptive feedback mechanism.
 
-✨ Project Overview
+---
 
-This project applies Cybernetics concepts — sensing, decision-making, and feedback — to build an automated fire detection system capable of real-time environmental monitoring.
+## 📌 Project Overview
 
-The system analyzes visual input using YOLOv8 object detection, detects fire hazards, and enables intelligent response mechanisms for safety automation.
+The **Cybernetics AI Fire Detection System** combines Artificial Intelligence, feedback control systems, and real-time image processing to automatically detect fire hazards.
 
-🧠 Cybernetics Concept Used
-Environment → Sensor Input → AI Processing → Decision → Feedback → System Improvement
-Core Principles
+The system analyzes live video or image input using **YOLOv8 Object Detection** and provides intelligent monitoring for safety-critical environments.
 
-Closed Loop Feedback System
+---
 
-Autonomous Decision Making
+## ✨ Features
 
-Real-Time Monitoring
+- 🔥 Real-time Fire Detection
+- 🎥 Live Camera / Video Monitoring
+- 🤖 Cybernetic Feedback Monitoring
+- ⚡ Fast YOLOv8 Detection Engine
+- 🧠 Intelligent Decision Processing
+- 📊 Modular Python Architecture
+- 🛠 Easy Testing & Integration
 
-Adaptive Learning
+---
 
-Intelligent Control System
+## 🧰 Tech Stack
 
-🚀 Features
-🔍 AI Fire Detection
+### 👨‍💻 Programming
+- Python
 
-Real-time fire detection using YOLOv8
+### 🧠 Artificial Intelligence
+- YOLOv8
+- PyTorch
+- OpenCV
+- NumPy
 
-High accuracy object recognition
+### ⚙️ Concepts Used
+- Cybernetics
+- Feedback Control System
+- Object Detection
+- Real-Time Monitoring
 
-Live camera/video monitoring
+---
 
-Fast inference speed
+## 📂 Project Structure
 
-🤖 Cybernetic Feedback System
 
-Continuous environmental sensing
-
-Automated decision response
-
-Detection feedback optimization
-
-Adaptive monitoring behavior
-
-📊 Intelligent Processing
-
-Image & video frame analysis
-
-Model-based prediction system
-
-Event-triggered response logic
-
-Modular AI pipeline
-
-🧰 Tech Stack
-Artificial Intelligence
-
-Python
-
-YOLOv8
-
-PyTorch
-
-OpenCV
-
-Cybernetics & Control
-
-Feedback Control Logic
-
-Autonomous Monitoring System
-
-Intelligent Decision Pipeline
-
-Development Tools
-
-NumPy
-
-YAML Configuration
-
-Computer Vision Processing
-
-📁 Project Structure
-cybernetics-fire-detection/
+cybernetics/
 │
-├── 📁 dataset/                 # Training Dataset (Excluded from Git)
-├── 📁 runs/                    # Model Training Results
-├── 📁 project_folder/          # Experimental Modules
+├── dataset/ # Training Dataset
+├── runs/ # Model Training Results
+├── project_folder/ # Supporting Modules
 │
-├── 📄 cybernetics.py           # Main Cybernetic Control Logic
-├── 📄 integration.py           # System Integration Module
-├── 📄 separator.py             # Detection Processing
-├── 📄 new.py                   # Testing / Execution Script
-├── 📄 data.yaml                # Dataset Configuration
+├── cybernetics.py # Main Control System
+├── integration.py # Module Integration
+├── separator.py # Detection Processing
+├── new.py # Testing Script
+├── data.yaml # Dataset Configuration
 │
-├── 📄 fire.pt                  # Custom Trained Model
-├── 📄 yolov8n.pt               # YOLO Base Model
-├── 📄 yolov8m.pt               # Optimized Detection Model
+├── fire.pt # Custom Fire Model
+├── yolov8n.pt # YOLOv8 Base Model
+├── yolov8m.pt # Optimized Model
 │
-└── 📄 README.md
+└── README.md
 
-⚠️ Large model and dataset files may be excluded due to GitHub size limits.
 
-⚙️ Installation & Setup
-Prerequisites
+> ⚠️ Large datasets and model files may be excluded due to GitHub size limitations.
 
-Python 3.9+
+---
 
-GPU Recommended (CUDA Supported)
+## ⚙️ Installation & Setup
 
-pip installed
-
-1️⃣ Clone Repository
+### ✅ Clone Repository
+```bash
 git clone https://github.com/codewithzodi/cybernetics.git
 cd cybernetics
-2️⃣ Install Dependencies
+✅ Install Dependencies
 pip install ultralytics opencv-python numpy
-3️⃣ Run Detection System
+✅ Run the Project
 python cybernetics.py
-🔥 Working Process
-
-Camera or video input captured
-
-Frames processed using OpenCV
-
-YOLOv8 detects fire objects
-
-Cybernetic controller evaluates risk
-
-Feedback loop updates monitoring state
-
-Alert or response triggered
-
-🧪 Model Training (Optional)
-yolo detect train data=data.yaml model=yolov8n.pt epochs=50
+🔍 System Workflow
+Camera Input
+     ↓
+Frame Processing (OpenCV)
+     ↓
+YOLOv8 Detection
+     ↓
+Cybernetic Decision System
+     ↓
+Feedback Monitoring
+     ↓
+Fire Alert Output
 📈 Applications
 
-Smart Cities Fire Monitoring
+🏭 Industrial Fire Safety
 
-Industrial Safety Systems
+🌲 Forest Fire Monitoring
 
-Forest Fire Detection
+🏢 Smart Building Surveillance
 
-Surveillance Automation
+🚨 Disaster Prevention Systems
 
-Autonomous Robotics Safety
+🤖 Autonomous Safety Monitoring
 
-Disaster Management Systems
-
-🧩 Cybernetics Architecture
-Sensor Layer
-     ↓
-AI Detection Layer
-     ↓
-Decision Controller
-     ↓
-Feedback System
-     ↓
-Adaptive Monitoring
 🚀 Future Enhancements
 
-IoT Sensor Integration
+📩 Email / SMS Alert System
 
-Drone-based Fire Detection
+☁️ Cloud Monitoring Dashboard
 
-Real-time Alert Notifications
+📡 IoT Sensor Integration
 
-Cloud Monitoring Dashboard
+🚁 Drone-based Fire Detection
 
-Reinforcement Learning Optimization
-
-Autonomous Emergency Response
-
-📄 Research Value
-
-This project demonstrates integration of:
-
-✅ Cybernetics
-✅ Artificial Intelligence
-✅ Computer Vision
-✅ Autonomous Control Systems
-✅ Feedback-Based Decision Making
-
-Suitable for:
-
-Final Year Projects
-
-Research Demonstrations
-
-AI Portfolio Projects
-
-Smart Surveillance Systems
-
-🤝 Contributing
-
-Fork repository
-
-Create feature branch
-
-Commit changes
-
-Push updates
-
-Create Pull Request
-
-📜 License
-
-This project is developed for academic and research purposes.
+🧠 Self-learning AI Optimization
 
 👨‍💻 Author
 
 Yash Kumar
-Cybersecurity Enthusiast | AI Developer | Ethical Hacker
+AI Developer • Cybersecurity Enthusiast • Ethical Hacker
 
-GitHub: https://github.com/codewithzodi
+🔗 GitHub: https://github.com/codewithzodi
 
-⭐ If you like this project, consider giving it a star.
+⭐ Support
+
+If you like this project, please consider giving it a ⭐ on GitHub!
