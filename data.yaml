@@ -1,0 +1,7 @@
+train: C:\Users\Samarth\codes\python code\cybernetics\project_folder\train
+val: C:\Users\Samarth\codes\python code\cybernetics\project_folder\val
+# Number of classes
+nc: 9
+
+# Class names
+names: ['fight', 'fire', 'helmet', 'objects', 'person', 'vehicle', 'weapon', 'overcrowded', 'robbery']

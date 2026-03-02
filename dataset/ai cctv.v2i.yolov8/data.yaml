@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Fire', 'Helmet', 'Person', 'Weapon', 'objects', 'overcrowded']
+
+roboflow:
+  workspace: ai-cctv-njeu0
+  project: my-first-project-kl1qq
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-cctv-njeu0/my-first-project-kl1qq/dataset/2

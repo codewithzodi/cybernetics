@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['fight', 'fire', 'helmet', 'objects', 'person', 'vehicle', 'weapon']
+
+roboflow:
+  workspace: cybernitics
+  project: my-first-project-hq6vo
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cybernitics/my-first-project-hq6vo/dataset/1

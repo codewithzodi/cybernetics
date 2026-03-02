@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['fight', 'fire', 'helmet', 'person', 'weapon']
+
+roboflow:
+  workspace: rashi-tgv9w
+  project: cctv-tux2l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/rashi-tgv9w/cctv-tux2l/dataset/1

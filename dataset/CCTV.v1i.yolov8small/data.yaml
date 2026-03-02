@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['helmet', 'person', 'weapon']
+
+roboflow:
+  workspace: yash-smi7i
+  project: cctv-up0jl
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yash-smi7i/cctv-up0jl/dataset/1

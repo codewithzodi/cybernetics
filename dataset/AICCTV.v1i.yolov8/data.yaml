@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Fighting', 'Fire', 'Helmet', 'Person', 'Robbery', 'Weapon']
+
+roboflow:
+  workspace: ai-integration
+  project: aicctv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ai-integration/aicctv/dataset/1
