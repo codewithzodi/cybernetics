@@ -1,128 +1,64 @@
-# 🔥🤖 Cybernetics AI Fire Detection System
+<div align="center">
+  <img src="banner.png" alt="Cybernetics Banner" width="100%">
+  <h1>🤖 CYBERNETICS</h1>
+  <p><i>Next-Generation AI-Powered Surveillance & Threat Detection</i></p>
 
-An intelligent **AI-powered Fire Detection System** based on **Cybernetics principles** and **Computer Vision**.  
-This system detects fire in real-time using deep learning models and continuously monitors environments through an adaptive feedback mechanism.
-
----
-
-## 📌 Project Overview
-
-The **Cybernetics AI Fire Detection System** combines Artificial Intelligence, feedback control systems, and real-time image processing to automatically detect fire hazards.
-
-The system analyzes live video or image input using **YOLOv8 Object Detection** and provides intelligent monitoring for safety-critical environments.
+  [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+  [![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-00ADEF?style=for-the-badge&logo=pytorch&logoColor=white)](https://yolov8.com/)
+  [![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+</div>
 
 ---
 
-## ✨ Features
+## 🌟 Overview
+**Cybernetics** is a high-performance, real-time surveillance system built with **YOLOv8**. It is designed to detect security threats, monitor overcrowding, and identify specific objects with surgical precision. Whether it's detecting weapons, fire, or tracking individuals, Cybernetics provides an intelligent layer of security for any environment.
 
-- 🔥 Real-time Fire Detection
-- 🎥 Live Camera / Video Monitoring
-- 🤖 Cybernetic Feedback Monitoring
-- ⚡ Fast YOLOv8 Detection Engine
-- 🧠 Intelligent Decision Processing
-- 📊 Modular Python Architecture
-- 🛠 Easy Testing & Integration
+## 🚀 Key Features
+- **🎯 Real-Time Object Detection**: Detects weapons (guns, knives), fire, helmets, vehicles, and more.
+- **🚨 Intelligent Alerts**: Automated audio alerts (beeps) when a threat is detected.
+- **👥 Overcrowding Monitoring**: Automatically triggers an alert when the number of people exceeds a predefined threshold.
+- **🛰️ Multi-Stream Support**: Works with webcams, video files, and live RTSP streams.
+- **📈 Custom Trained Models**: Support for specialized models like `fire.pt` for dedicated fire detection.
 
----
-
-## 🧰 Tech Stack
-
-### 👨‍💻 Programming
-- Python
-
-### 🧠 Artificial Intelligence
-- YOLOv8
-- PyTorch
-- OpenCV
-- NumPy
-
-### ⚙️ Concepts Used
-- Cybernetics
-- Feedback Control System
-- Object Detection
-- Real-Time Monitoring
-
----
+## 🛠️ Tech Stack
+- **AI Core**: YOLOv8 (Ultralytics)
+- **Computer Vision**: OpenCV
+- **Backend/Logic**: Python
+- **Sound System**: `winsound` (Windows) / `beepy` (Linux/macOS)
 
 ## 📂 Project Structure
+- `cybernetics.py`: Main tracking script using YOLOv8.
+- `integration.py`: Surveillance script with person counting and sound alerts.
+- `new.py`: Specialized detection for weapons, fire, and overcrowding with beep logic.
+- `seprator.py`: Dataset management script for splitting data into train/val.
+- `data.yaml`: Configuration for detection classes (9 classes including `robbery`, `weapon`, `fire`).
 
+## ⚙️ Installation
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/codewithzodi/cybernetics.git
+   cd cybernetics
+   ```
+2. **Install dependencies**:
+   ```bash
+   pip install ultralytics opencv-python beepy
+   ```
+3. **Ensure you have the weights**:
+   The scripts expect `yolov8s.pt` or `yolov8m.pt` in the root directory.
 
-cybernetics/
-│
-├── dataset/ # Training Dataset
-├── runs/ # Model Training Results
-├── project_folder/ # Supporting Modules
-│
-├── cybernetics.py # Main Control System
-├── integration.py # Module Integration
-├── separator.py # Detection Processing
-├── new.py # Testing Script
-├── data.yaml # Dataset Configuration
-│
-├── fire.pt # Custom Fire Model
-├── yolov8n.pt # YOLOv8 Base Model
-├── yolov8m.pt # Optimized Model
-│
-└── README.md
-
-
-> ⚠️ Large datasets and model files may be excluded due to GitHub size limitations.
+## 🏃 Usage
+- **Run Surveillance**:
+  ```bash
+  python integration.py
+  ```
+- **Run Threat Detection (Weapons/Fire)**:
+  ```bash
+  python new.py
+  ```
+- **Train/Evaluate**:
+  Update `data.yaml` and use the Ultralytics CLI or `cybernetics.py`.
 
 ---
 
-## ⚙️ Installation & Setup
-
-### ✅ Clone Repository
-```bash
-git clone https://github.com/codewithzodi/cybernetics.git
-cd cybernetics
-✅ Install Dependencies
-pip install ultralytics opencv-python numpy
-✅ Run the Project
-python cybernetics.py
-🔍 System Workflow
-Camera Input
-     ↓
-Frame Processing (OpenCV)
-     ↓
-YOLOv8 Detection
-     ↓
-Cybernetic Decision System
-     ↓
-Feedback Monitoring
-     ↓
-Fire Alert Output
-📈 Applications
-
-🏭 Industrial Fire Safety
-
-🌲 Forest Fire Monitoring
-
-🏢 Smart Building Surveillance
-
-🚨 Disaster Prevention Systems
-
-🤖 Autonomous Safety Monitoring
-
-🚀 Future Enhancements
-
-📩 Email / SMS Alert System
-
-☁️ Cloud Monitoring Dashboard
-
-📡 IoT Sensor Integration
-
-🚁 Drone-based Fire Detection
-
-🧠 Self-learning AI Optimization
-
-👨‍💻 Author
-
-Yash Kumar
-AI Developer • Cybersecurity Enthusiast • Ethical Hacker
-
-🔗 GitHub: https://github.com/codewithzodi
-
-⭐ Support
-
-If you like this project, please consider giving it a ⭐ on GitHub!
+<p align="center">Made with ❤️ for a safer world.</p>
